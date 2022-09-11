@@ -1,8 +1,10 @@
 import React from "react";
 import { useSelector } from "react-redux";
-
-import { Row, Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Card from "react-bootstrap/Card";
 
 const ProductComponent = () => {
   const products = useSelector((state) => state.allProducts.products);
