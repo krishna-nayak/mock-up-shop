@@ -1,4 +1,47 @@
-# Getting Started with Create React App
+# React Redux Project
+
+In this Project we build an simple E-Commerce site fetching data and displaying Product information. This Project Idea Based on Flipkart and Amazon.
+
+All Product Details are based [_fakestoreapi_](https://fakestoreapi.com/). A free online REST API that you can use whenever you need Pseudo-real data for your e-commerce or shopping website.
+
+Basic Idea of building this project is to Learn about [React](https://reactjs.org/) and [React-Redux](https://redux.js.org/) in real-base project.
+
+## Project Structure
+
+```bash
+├── README.md
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   └── index.html
+└── src
+    ├── App.css
+    ├── App.js
+    ├── components
+    │   ├── Header.js
+    │   ├── ProductComponent.js
+    │   ├── ProductDetail.js
+    │   └── ProductListing.js
+    ├── index.css
+    ├── index.js
+    └── redux
+        ├── actions
+        │   └── productActions.js
+        ├── contants
+        │   └── action-types.js
+        ├── reducers
+        │   ├── index.js
+        │   └── productReducer.js
+        └── store.js
+```
+
+## How to Run
+
+1. Clone the project
+
+```bash
+git clone
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +111,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
