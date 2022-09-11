@@ -22,7 +22,6 @@ const ProductListing = () => {
     fetchProducts();
   }, [dispatch]);
 
-  console.log("Products:", products);
   return (
     <Container>
       <ProductComponent />
