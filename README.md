@@ -2,7 +2,7 @@
 
 In this Project we build an simple E-Commerce site fetching data and displaying Product information. This Project Idea Based on Flipkart and Amazon.
 
-All Product Details are based [_fakestoreapi_](https://fakestoreapi.com/). A free online REST API that you can use whenever you need Pseudo-real data for your e-commerce or shopping website.
+All Product Details are provided by [_fakestoreapi_](https://fakestoreapi.com/). A free online REST API that you can use whenever you need Pseudo-real data for your e-commerce or shopping website.
 
 Basic Idea of building this project is to Learn about [React](https://reactjs.org/) and [React-Redux](https://redux.js.org/) in real-base project.
 
